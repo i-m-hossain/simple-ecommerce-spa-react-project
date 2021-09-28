@@ -1,8 +1,8 @@
-##simple-react-ecommerce-spa
+## simple-react-ecommerce-spa
 
-Live website link: https://simple-ecommerce-spa-react-project.netlify.app/
+Live website link: [simple-react-ecommerce-spa]{https://simple-ecommerce-spa-react-project.netlify.app/}
 
-###project summary:
+### project summary:
 
 <li> Data loaded from https://fakestoreapi.com/products using useEffect and useState hook </li>
 <li> when product added to cart, the pricing is calculated</li>
