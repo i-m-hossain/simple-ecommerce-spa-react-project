@@ -2,10 +2,17 @@ import React from 'react';
 
 const Cart = (props) => {
     const cart = props.cartProduct
+    
     let total =0;
+    let quantity = 0;
     let shipping = 0;
     for(const pd of cart){
-        total += pd.price   
+        if(!pd.quantity){
+            pd.quantity =1
+        }
+        total = total + pd.price * pd.quantity
+        quantity = quantity + pd.quantity
+        
     }
     if(total>0){
         shipping = 50;
@@ -29,6 +36,7 @@ const Cart = (props) => {
                 <p>$ {tax.toFixed(2)}</p>
                 <p>$ {grandTotal.toFixed(2)}</p>
             </div>
+            <p className="h6">Product Added: {quantity}</p>
         </div>
     );
 };

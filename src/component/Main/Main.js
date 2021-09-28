@@ -26,7 +26,11 @@ const Main = () => {
             for (const key in cartOfStorage){
                 const keyInt = parseInt(key) //this is an exception as product id is integer
                 const addedProduct = products.find(product => product.id === keyInt);
-                storedCart.push(addedProduct)
+                if(addedProduct){
+                    addedProduct['quantity'] = cartOfStorage[key] //adding quantity property in addedproducts
+                    storedCart.push(addedProduct)
+                }
+               
             };
             setCartProduct(storedCart)
         }
@@ -42,7 +46,6 @@ const Main = () => {
         setDisplayResult(seacrhProduct)
         
     }
-
     return (
         <>
             <Search handleSearch={handleSearch}></Search>
@@ -65,10 +68,9 @@ const Main = () => {
                 <div className="col-md-3 mt-4 ps-5">
                     <div>
                         <p className="h6">Cart</p>
-                        <Cart cartProduct={cartProduct} ></Cart>
+                        <Cart cartProduct={cartProduct}></Cart>
                     </div>
                     <div className="mt-3">
-                        <p className="h6">Product Added: {cartProduct.length}</p>
                         {
                             cartProduct.map(product => <CartProduct product={product} key={product.id} ></CartProduct>)
                         }
