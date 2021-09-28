@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react';
+import Cart from '../Cart/Cart';
+import CartProduct from '../CartProduct/CartProduct';
 import Products from '../Products/Products';
 const Main = () => {
     const [data, setData] = useState([])
@@ -25,8 +27,15 @@ const Main = () => {
                         }
                     </div>
                 </div>
-                <div className="col-md-3 border">
-                    col 2
+                <div className="col-md-3 mt-4 ps-5">
+                    <div>
+                        <p class="h6">Cart</p>
+                        <Cart></Cart>
+                    </div>
+                    <div className="mt-3">
+                        <p class="h6">Product Added: </p>
+                        <CartProduct></CartProduct>
+                    </div>
                 </div>
             </div>
         </>

@@ -1,8 +1,13 @@
+import { faStar } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
+import Rating from 'react-rating';
 
 const Products = (props) => {
     const {title, image, price, rating, category, description} = props.product
     console.log(rating);
+    const starFull = <FontAwesomeIcon icon={faStar} className="text-warning" />
+    const starEmpty = <FontAwesomeIcon icon={faStar} className="text-light" />
     return (
         <div className="col-md-4 p-2">
             <div className="card-group ">
@@ -13,11 +18,16 @@ const Products = (props) => {
                     <p className ="card-text">{description.slice(0,150)}...</p>
                     </div>
                     <div className="d-flex justify-content-between ps-2 pe-2">
-                        <h4 className="bg-light p-2 rounded">Price: ${price}</h4>
-                        <h4>{rating.rate}({rating.count})</h4>
+                        <p className="bg-light p-2 rounded">Price: <span class="h6 text-danger">${price}</span></p>
+                        <p className="bg-light p-2 rounded"> <Rating
+                            emptySymbol={starEmpty}
+                            fullSymbol={starFull}
+                                initialRating={rating.rate}
+                                readonly/> 
+                                <span className="text-danger">({rating.count})</span></p>
                     </div>
                     <div className="card-footer text-center bg-warning">
-                        <small className ="">Add To Cart</small>
+                        <small className =""> Add To Cart</small>
                     </div>
                 </div>
             </div>
