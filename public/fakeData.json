@@ -1,0 +1,246 @@
+[
+    {
+        "id": "614fcb1250a200a593785953",
+        "age": 23,
+        "name": "Daniels Mckee",
+        "gender": "male",
+        "company": "BLEENDOT",
+        "email": "danielsmckee@bleendot.com",
+        "phone": "+1 (990) 408-3664",
+        "salary": 596841,
+        "image": "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixid=MnwxMimageA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80",
+        "skill": ["Javascript", "Node-JS", "Laravel", "Python"]
+    },
+    {
+        "id": "614fcb12c321fa865c6d4f94",
+        "age": 40,
+        "name": "Nola Collins",
+        "gender": "female",
+        "company": "POSHOME",
+        "email": "nolacollins@poshome.com",
+        "phone": "+1 (870) 450-2238",
+        "salary": 302090,
+        "image": "https://images.unsplash.com/photo-1579503841516-e0bd7fca5faa?ixid=MnwxMimageA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=580&q=80",
+        "skill": [
+            "Javascript",
+            "Node-JS"
+        ]
+    },
+    {
+        "id": "614fcb12ec265b2548524b53",
+        "age": 27,
+        "name": "Woodard Mueller",
+        "gender": "male",
+        "company": "CANOPOLY",
+        "email": "woodardmueller@canopoly.com",
+        "phone": "+1 (905) 475-3611",
+        "salary": 998399,
+        "image": "https://images.unsplash.com/photo-1605462863863-10d9e47e15ee?ixid=MnwxMimageA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80",
+        "skill": [
+            "Javascript",
+            "Node-JS",
+            "Python"
+        ]
+    },
+    {
+        "id": "614fcb1288b80dd40b0f5c64",
+        "age": 26,
+        "name": "Mercado Ortega",
+        "gender": "male",
+        "company": "CONFRENimageY",
+        "email": "mercadoortega@confrenimagey.com",
+        "phone": "+1 (844) 477-3904",
+        "salary": 156400,
+        "image": "https://images.unsplash.com/photo-1591084728795-1149f32d9866?ixid=MnwxMimageA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=464&q=80",
+        "skill": [
+            "Javascript",
+            "Laravel",
+            "Python"
+        ]
+    },
+    {
+        "id": "614fcb12d633f74137d715e8",
+        "age": 26,
+        "name": "Berta Bryant",
+        "gender": "female",
+        "company": "PYRAMI",
+        "email": "bertabryant@pyrami.com",
+        "phone": "+1 (986) 465-2845",
+        "salary": 585939,
+        "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MnwxMimageA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80",
+        "skill": [
+            
+            "Node-JS",
+            "Laravel",
+            "Python"
+        ]
+    },
+    {
+        "id": "614fcb1217bd85cee49be703",
+        "age": 22,
+        "name": "Brianna Craft",
+        "gender": "female",
+        "company": "imageYTRAX",
+        "email": "briannacraft@imageytrax.com",
+        "phone": "+1 (985) 481-3468",
+        "salary": 567222,
+        "image": "https://images.unsplash.com/photo-1509967419530-da38b4704bc6?ixid=MnwxMimageA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=895&q=80",
+        "skill": [
+            "Javascript",
+            "Python"
+        ]
+    },
+    {
+        "id": "614fcb122b23577be32df826",
+        "age": 30,
+        "name": "Shaffer Slater",
+        "gender": "male",
+        "company": "RENOVIimageE",
+        "email": "shafferslater@renoviimagee.com",
+        "phone": "+1 (926) 404-2721",
+        "salary": 954533,
+        "image": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixid=MnwxMimageA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
+        "skill": [
+            "Python"
+        ]
+    },
+    {
+        "id": "614fcb1272fcf75c4c50eeb4",
+        "age": 28,
+        "name": "Olson Gilmore",
+        "gender": "male",
+        "company": "imageENTIA",
+        "email": "olsongilmore@imageentia.com",
+        "phone": "+1 (939) 498-3688",
+        "salary": 547345,
+        "image": "https://images.unsplash.com/photo-1583692331507-fc0bd348695d?ixid=MnwxMimageA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
+        "skill": [
+            "Javascript",
+            "Node-JS",
+            "Python"
+        ]
+    },
+    {
+        "id": "614fcb12c208304ae9d1b7d2",
+        "age": 20,
+        "name": "Blevins Hodges",
+        "gender": "male",
+        "company": "TRIBALOG",
+        "email": "blevinshodges@tribalog.com",
+        "phone": "+1 (975) 402-3083",
+        "salary": 446731,
+        "image": "https://images.unsplash.com/photo-1611608822772-43a28a830759?ixid=MnwxMimageA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=435&q=80",
+        "skill": [
+            "Javascript",
+            "Node-JS",
+            "Laravel",
+            "Python"
+        ]
+    },
+    {
+        "id": "614fe16404fc69f93705b5f4",
+        "age": 22,
+        "name": "Tina Cash",
+        "gender": "female",
+        "company": "QUINTITY",
+        "email": "tinacash@quintity.com",
+        "phone": "+1 (841) 551-2286",
+        "salary": 794117,
+        "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTZ8fHdvbWFufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "skill": [
+            "Laravel",
+            "Python"
+        ]
+    },
+    {
+        "id": "614fe164665bb22bf2d29a54",
+        "age": 28,
+        "name": "Larsen Moss",
+        "gender": "male",
+        "company": "PLEXIA",
+        "email": "larsenmoss@plexia.com",
+        "phone": "+1 (927) 442-3317",
+        "salary": 702582,
+        "image": "https://images.unsplash.com/photo-1572291904113-98bba0555815?ixid=MnwxMimageA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80",
+        "skill": [
+            "Javascript"
+            
+        ]
+    },
+    {
+        "id": "614fe164a6cc35f6815f896f",
+        "age": 31,
+        "name": "Blankenship Hatfield",
+        "gender": "male",
+        "company": "QIMONK",
+        "email": "blankenshiphatfield@qimonk.com",
+        "phone": "+1 (996) 592-3492",
+        "salary": 603504,
+        "image": "https://images.unsplash.com/photo-1618245330073-0b5d03aad5c2?ixid=MnwxMimageA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
+        "skill": [
+            "Javascript",
+            "Python"
+        ]
+    },
+    {
+        "id": "614fe164b5b1f1e016c4cf6e",
+        "age": 31,
+        "name": "Atkins Stout",
+        "gender": "male",
+        "company": "PLASMOS",
+        "email": "atkinsstout@plasmos.com",
+        "phone": "+1 (978) 406-2855",
+        "salary": 594933,
+        "image": "https://images.unsplash.com/photo-1618517047977-854f5c4b6976?ixid=MnwxMimageA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80",
+        "skill": [
+            "Javascript"
+        ]
+    },
+    {
+        "id": "614fe164ce065dadbf65fcbf",
+        "age": 38,
+        "name": "Atkinson imageacobs",
+        "gender": "male",
+        "company": "EXTRO",
+        "email": "atkinsonimageacobs@extro.com",
+        "phone": "+1 (918) 544-3761",
+        "salary": 294915,
+        "image": "https://images.unsplash.com/photo-1595152452543-e5fc28ebc2b8?ixid=MnwxMimageA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=580&q=80",
+        "skill": [
+            "Javascript",
+            "Node-JS"
+        ]
+    },
+    {
+        "id": "614fe16412a006afdff5255c",
+        "age": 37,
+        "name": "Franks Clements",
+        "gender": "male",
+        "company": "SUSTENimageA",
+        "email": "franksclements@sustenimagea.com",
+        "phone": "+1 (973) 589-3837",
+        "salary": 130860,
+        "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixid=MnwxMimageA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
+        "skill": [
+            "Javascript",
+            "Node-JS",
+            "Laravel",
+            "Python"
+        ]
+    },
+    {
+        "id": "614fe164227233c643686b83",
+        "age": 27,
+        "name": "Bradshaw Burke",
+        "gender": "male",
+        "company": "TALAE",
+        "email": "bradshawburke@talae.com",
+        "phone": "+1 (830) 482-2110",
+        "salary": 412272,
+        "image": "https://images.unsplash.com/photo-1607346256330-dee7af15f7c5?ixid=MnwxMimageA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=906&q=80",
+        "skill": [
+            "Laravel",
+            "Python"
+        ]
+    }
+]
