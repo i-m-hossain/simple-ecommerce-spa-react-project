@@ -1,6 +1,6 @@
 ## simple-react-ecommerce-spa
 
-Live website link: [simple-react-ecommerce-spa]{https://simple-ecommerce-spa-react-project.netlify.app/}
+Live website link: https://simple-ecommerce-spa-react-project.netlify.app/
 
 ### project summary:
 
